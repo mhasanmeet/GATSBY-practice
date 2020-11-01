@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  font-family: 'Robot', sans-serif;
+}
+
+h1{
+  color: Blue;
+  text-transform: capitalize;
+}
+
+.footer{
+  color: red;
+}
+
