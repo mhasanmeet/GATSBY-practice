@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import Layout from '../components/layout'
+import styles from "../components/modules/products.module.css"
 
 export default class products extends Component {
   render() {
     return (
       <Layout>
-        <h1>This is our product page</h1>
+        <h1 className={styles.text}>This is our product page</h1>
 
         <div className="products-paragraph">
           Lorem Ipsum is simply dummy text of
